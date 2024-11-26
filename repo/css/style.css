@@ -10,7 +10,32 @@
         background-color: orange;
         height: 80px;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+
+    #header-nav{
+        display: flex;
+        
+    }
+
+
+    .link{
+        color: white;
+        font-size: 20px;
+    }
+
+
+    .menu-space{
+        padding-right: 5px;
+    }
+
+
+
+
+
 
     /* regole main */
 
