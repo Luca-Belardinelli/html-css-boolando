@@ -81,10 +81,12 @@
     
     .description{
         text-align: left;
+       
     }
 
     .price{
         color: red;
+        
     }
 
     /* regole footer */
