@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     }
+
+
+    /* regole header */
+    header{
+        background-color: orange;
+        height: 80px;
+        width: 100%;
+    }
+
+    /* regole main */
+
+    .product_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .product{
+        width: 32%;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    .product img{
+       max-width: 100%;
+    }
+
+
+    /* regole footer */
+    footer{
+        background-color: black;
+        height: 100px;
+        width: 100%;
+    }
