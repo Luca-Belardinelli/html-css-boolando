@@ -67,6 +67,17 @@
     }
     
 
+    .sostenibilità-2{
+        background-color: green;
+        position: absolute;
+        top: 450px;
+        left: 0px;
+        z-index: 11;
+        color: white;
+        padding: 4px ;
+        font-size: 15px;
+    }
+
     
     .description{
         text-align: left;
