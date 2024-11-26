@@ -18,11 +18,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding: 40px 400px ;
     }
     
     .product{
         width: 32%;
         margin-bottom: 20px;
+        margin-top: 20px;
         text-align: center;
         position: relative;
     }
@@ -31,6 +33,48 @@
        max-width: 100%;
     }
 
+
+    .heart{
+        padding: 5px 15px ;
+        background-color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        right: 0;
+        z-index: 10;
+    }
+    
+    .label_discount {
+        background-color: red;
+        position: absolute;
+        top: 450px;
+        left: 0;
+        z-index: 10;
+        color: white;
+        padding: 4px ;
+        font-size: 15px;
+    }
+
+    .sostenibilità{
+        background-color: green;
+        position: absolute;
+        top: 450px;
+        left: 43px;
+        z-index: 11;
+        color: white;
+        padding: 4px ;
+        font-size: 15px;
+    }
+    
+
+    
+    .description{
+        text-align: left;
+    }
+
+    .price{
+        color: red;
+    }
 
     /* regole footer */
     footer{
