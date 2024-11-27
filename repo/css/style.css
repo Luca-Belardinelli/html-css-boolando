@@ -10,6 +10,9 @@
         background-color: rgb(255, 85, 0);
         height: 70px;
         width: 100%;
+        position: sticky;
+        z-index: 1000;
+        top: 0;
     }
 
 
@@ -34,6 +37,7 @@
         padding-right: 5px;
         font-weight: 600;
         font-size: 18px;
+        list-style: none;
     }
 
     #logo{
@@ -163,6 +167,8 @@
     .legali{
         padding-right: 5px;
         font-size: 15px;
+        list-style: none;
+        
     }
 
 
